@@ -1,0 +1,6 @@
+services:
+  web:
+    image: ghcr.io/angeelmdev/tic-tac-toe:latest
+    build: .
+    ports:
+      - "4500:80"
