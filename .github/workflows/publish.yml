@@ -20,8 +20,8 @@ jobs:
       
       - name: Build image
         run: | 
-          docker build . --tag ghcr.io/angeelmdev/docs:latest
-          docker push ghcr.io/angeelmdev/docs:latest
+          docker build . --tag ghcr.io/angeelmdev/tic-tac-toe:latest
+          docker push ghcr.io/angeelmdev/tic-tac-toe:latest
   
   desploy:
     needs: create-docker-image

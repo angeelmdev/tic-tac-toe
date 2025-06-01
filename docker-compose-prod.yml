@@ -2,4 +2,4 @@ services:
   web:
     image: ghcr.io/angeelmdev/tic-tac-toe:latest
     ports:
-      - "4500:4500"
+      - "4500:80"
